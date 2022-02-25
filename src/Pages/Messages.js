@@ -1,0 +1,22 @@
+import RightNavBar from '../Components/RightNavBar/RightNavBar';
+
+
+const Messages = () => {
+  return (
+    <div className="container">
+      <div className="flex min-h-screen max-w-7xl mx-auto  mt-5">
+        <div className="w-72 ml-20 mt-5 ">
+          <RightNavBar />
+        </div>
+        <div className="w-72 ml-20 mt-5">
+          <div class="flex justify-center">
+              Messages
+          </div>
+        </div>
+        <div className="w-72 ml-20 mt-5"></div>
+      </div>
+    </div>
+  );
+};
+
+export default Messages;
